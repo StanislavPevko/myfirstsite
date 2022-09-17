@@ -211,7 +211,8 @@
 
 .texts{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    
 }
 
 .text_1{
@@ -293,6 +294,7 @@
 
     .li_29{
         padding: 12px 40px;
+        padding-left: 60px;
         width: 206px;
         height: 56px;
         font-family: 'DM Sans';
@@ -303,6 +305,10 @@
         text-align: center;
         letter-spacing: -1.03448px;
         color: #FFFFFF;
+    }
+
+    .li_29 span{
+        font-size: 28px;
     }
 
     .li_group2{
@@ -357,6 +363,7 @@
 
     .li_49{
         padding: 12px 40px;
+        padding-left: 60px;
         width: 206px;
         height: 56px;
         font-family: 'DM Sans';
@@ -369,6 +376,9 @@
         color: #1D293F;
     }
 
+    .li_49 span{
+        font-size: 28px;
+    }
     .li_group3{
         font-family: 'Mulish';
         font-style: normal;
